@@ -8,6 +8,13 @@
     
 }
 
+body {
+    max-width: 1024px;
+    max-height: 768px;
+    margin: 0 auto; /* Centra el contenido si la pantalla es más grande */
+    overflow: auto; /* Agrega desplazamiento si el contenido es más grande que el tamaño máximo */
+}
+
 header{
     display: flex;
     background-color: #222222;
